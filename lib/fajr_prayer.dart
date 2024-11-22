@@ -17,5 +17,5 @@ class FajrPrayerFard extends StatelessWidget {
       ),
     );
   }
-}
+} 
 

@@ -1,33 +1,34 @@
 import 'package:flutter/material.dart';
-import 'package:salah/prayer_button.dart';
-
 
 void main() {
-  runApp(const StartScreen());
+  runApp(const FirstScreen());
 }
 
-class StartScreen extends StatelessWidget {
-  const StartScreen({super.key});
+class FirstScreen extends StatelessWidget {
+  const FirstScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Daily Salah',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Daily Salah'),
-          centerTitle: true,
-          backgroundColor: Colors.deepPurple,
+          body: Center(
+        child: ListView(
+          children: [
+            buildButton('Fajr'),
+            buildButton('Dhuhr'),
+            buildButton('Asr'),
+            buildButton('Magrib'),
+            buildButton('Isha'),
+          ],
         ),
-        body: const Center(
-          child: PrayerButtons(),
-        ),
-      ),
+      )),
     );
   }
 }
 
+Widget buildButton(String title) {
+  return ElevatedButton(
+    onPressed: () {},
+    child: Text(title),
+  );
+}

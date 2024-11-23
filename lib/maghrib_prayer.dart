@@ -8,11 +8,19 @@ class MaghribPrayerFard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Maghrib Prayer')),
       body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: const Text('Return'),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: const Text('Return'),
+              ),
+            ],
+          ),
         ),
       ),
     );

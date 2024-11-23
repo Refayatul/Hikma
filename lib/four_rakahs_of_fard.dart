@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 
-class TwoRakahsOfSunnah extends StatelessWidget {
-  const TwoRakahsOfSunnah({super.key});
+class FourRakahsOfFard extends StatelessWidget {
+  const FourRakahsOfFard({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("2 Rak'as of Sunnah"),
+        title: Text("4 Rak'as of Fard"),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text("Learn to Pray 2 Rak'ahs of Sunnah"),
+            const Text("Learn to Pray Four Rak'as of Fard"),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: const Text('Return'),
+              child: Text("Return"),
             ),
           ],
         ),

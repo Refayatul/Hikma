@@ -1,26 +1,26 @@
 import 'package:flutter/material.dart';
 
-class ThreeRakasOfFard extends StatelessWidget {
-  const ThreeRakasOfFard({super.key});
+class TwoRakasOfFard extends StatelessWidget {
+  const TwoRakasOfFard({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("3 Rak'as of Fard"),
+        title: const Text("2 Rak'as of Fard"),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text("Learn to Pray 3 Rak'ahs of Fard"),
-            const SizedBox(height: 20), // Add some spacing
+            const Text("Learn to Pray 2 Rak'ahs of Fard"),
+            const SizedBox(height: 20),
             Expanded(
               child: ListView(
                 children: [
                   Text(
-                    'Steps for Performing 3 Rak\'ahs of Fard Prayer:',
+                    'Steps for Performing 2 Rak\'ahs of Sunnah Prayer:',
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(height: 16),
@@ -29,11 +29,11 @@ class ThreeRakasOfFard extends StatelessWidget {
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Make the intention to perform 3 Rak\'ahs of Fard prayer. Say to yourself: "I intend to perform 3 Rak\'ahs of Fard prayer for the sake of Allah."',
+                    'Make the intention to perform 2 Rak\'ahs of Sunnah prayer. Say to yourself: "I intend to perform 2 Rak\'ahs of Sunnah prayer for the sake of Allah."',
                     style: TextStyle(fontSize: 14),
                   ),
                   Text(
-                    'Arabic Pronunciation: "Nawaytu an usalli rak\'ataini fardan lillahi ta\'ala."',
+                    'Arabic Pronunciation: "Nawaytu an usalli rak\'ataini sunnatan lillahi ta\'ala."',
                     style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
                   ),
                   SizedBox(height: 16),
@@ -108,16 +108,7 @@ class ThreeRakasOfFard extends StatelessWidget {
                   ),
                   SizedBox(height: 16),
                   Text(
-                    '8. Third Rak\'ah:',
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    'Repeat steps 3-6 for the third Rak\'ah.',
-                    style: TextStyle(fontSize: 14),
-                  ),
-                  SizedBox(height: 16),
-                  Text(
-                    '9. Tasleem (Ending the Prayer):',
+                    '8. Tasleem (Ending the Prayer):',
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                   Text(

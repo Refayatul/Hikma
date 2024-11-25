@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:salah/button_details.dart';
 import 'package:salah/two_rakahs_of_sunnah.dart';
+import 'package:salah/two_rakahs_of_fard.dart';
 
 class FajrPrayerFard extends StatelessWidget {
   const FajrPrayerFard({super.key});
@@ -25,7 +26,7 @@ class FajrPrayerFard extends StatelessWidget {
               buildButton(
                 context,
                 "Fard 2 Rak'ahs",
-                const TwoRakahsOfSunnah(),
+                const TwoRakasOfFard(),
                 Icons.access_alarm,
               ),
               const SizedBox(height: 12),

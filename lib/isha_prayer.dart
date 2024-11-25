@@ -10,7 +10,7 @@ class IshaPrayerFard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true, title: const Text('Fajr Prayer')),
+      appBar: AppBar(centerTitle: true, title: const Text('Isha Prayer')),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),

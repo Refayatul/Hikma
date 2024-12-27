@@ -12,11 +12,10 @@ class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true, title: const Text('Learn Salah')),
+      /*appBar: AppBar(centerTitle: true, title: const Text('Learn Salah')),*/
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.symmetric(
-              horizontal: 16.0),
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

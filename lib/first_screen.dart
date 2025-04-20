@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'fajr_prayer.dart';
-import 'dhuhr_prayer.dart';
+import 'fajr_prayer_screen.dart'; // Updated import
+import 'dhuhr_prayer_screen.dart';
 import 'asr_prayer.dart';
 import 'maghrib_prayer.dart';
 import 'isha_prayer.dart';
@@ -22,14 +22,14 @@ class FirstScreen extends StatelessWidget {
               buildButton(
                 context,
                 'Fajr',
-                const FajrPrayerFard(),
+                const FajrPrayerScreen(), // Updated screen
                 Icons.wb_sunny,
               ),
               const SizedBox(height: 12),
               buildButton(
                 context,
                 'Dhuhr',
-                const DhuhrPrayerFard(),
+                const DhuhrPrayerScreen(),
                 Icons.access_time,
               ),
               const SizedBox(height: 12),
